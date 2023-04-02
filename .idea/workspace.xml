@@ -4,11 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aab750ac-7c0c-4947-80d5-de05162b895a" name="Changes" comment="" />
+    <list default="true" id="aab750ac-7c0c-4947-80d5-de05162b895a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/bank_application/BankApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/bank_application/BankApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/bank_application/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/bank_application/entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/bank_application/entity/Agreement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/bank_application/entity/Agreement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/bank_application/entity/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/bank_application/entity/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/bank_application/entity/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/bank_application/entity/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/bank_application/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/bank_application/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/bank_application/entity/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/bank_application/entity/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/bank_application/mapper/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/bank_application/mapper/AccountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/bank_application/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/bank_application/repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/ti1-insert-data-to-managers-changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/ti1-insert-data-to-managers-changelog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/ti4-insert-data-to-clients-changelog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/changes/v0.0.1-SNAPSHOT/ti4-insert-data-to-clients-changelog.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -25,12 +48,81 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/PROJECT/BANK23",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "9b29d47803d4708bf0fbdd0cbe94ce72",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PROJECT\BANK23\src\main\java\bank_application" />
+      <recent name="C:\PROJECT\BANK23\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bank_application" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BankApplication">
+    <configuration name="BankApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="BANK23" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="example.bank_application.BankApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.bank_application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="upp.server.url" value="http://localhost:8080" />
+        <env name="datasource.passvord" value="GIO" />
+        <env name="datasourse.url" value="jdb:mysql://localhost:3306/BANK" />
+        <env name="datasourse.username" value="GIO" />
+      </envs>
+      <module name="BANK23" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="example.bank_application.BankApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="BANK23" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="example.bank_application.BankApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.BankApplication" />
+      <item itemvalue="Spring Boot.BankApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BankApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,8 +131,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680081918486</updated>
-      <workItem from="1680081920479" duration="1000" />
+      <workItem from="1680081920479" duration="13428000" />
+      <workItem from="1680438169722" duration="2892000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

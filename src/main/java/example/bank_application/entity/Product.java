@@ -22,28 +22,36 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 //    @GenericGenerator(name = "UUID",
-//            strategy = "com.example.bank_application.generator.UuidTimeSequenceGenerator")
+//    strategy = "com.example.bank_application.generator.UuidTimeSequenceGenerator")
     @Column(name = "id")
     private int id;
+
     @Column(name = "name")
     private String name;
+
     @Column(name = "status")
     @Enumerated(EnumType.STRING)
     private ProductStatus status;
+
     @Column(name = "currency_code")
     @Enumerated(EnumType.STRING)
     private CurrencyType currencyCode;
+
     @Column(name = "interest_rate")
     private float interestRate;
+
     @Column(name = "limit")
     private int limit;
+
     @Column(name = "created_at")
     private Timestamp createdAt;
+
     @Column(name = "updated_at")
     private Timestamp updatedAt;
 
     @OneToMany(mappedBy = "product", cascade = CascadeType.ALL)
     private Set<Agreement> agreement;
+
     @ManyToMany(cascade = CascadeType.PERSIST)
     @JoinTable(name = "products_managers",
             joinColumns = {@JoinColumn(name = "product_id")},

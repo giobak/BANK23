@@ -22,21 +22,27 @@ public class Agreement {
 //            strategy = "com.example.bank_application.generator.UuidTimeSequenceGenerator")
     @Column(name = "id")
     private int id;
+
     @Column(name = "interest_rate")
     private float interestRate;
+
     @Column(name = "status")
     @Enumerated(EnumType.STRING)
     private AccountProductStatus status;
+
     @Column(name = "sum")
     private double sum;
+
     @Column(name = "created_at")
     private Timestamp createdAt;
+
     @Column(name = "updated_at")
     private Timestamp updatedAt;
 
     @ManyToOne()
     @JoinColumn(name = "account_id", referencedColumnName="id")
     private Account account;
+
     @ManyToOne()
     @JoinColumn(name = "product_id", referencedColumnName="id")
     private Product product;

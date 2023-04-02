@@ -2,24 +2,166 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.0.4</version>
+    <relativePath/> <!-- lookup parent from repository -->
+  </parent>
+
   <groupId>org.example</groupId>
   <artifactId>BANK23</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>BANK23</name>
-  <url>http://maven.apache.org</url>
+  <url>https://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
   <dependencies>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-jdbc</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.liquibase</groupId>
+      <artifactId>liquibase-core</artifactId>
+      <version>4.20.0</version>
+    </dependency>
+
+
+
+    <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa -->
+    <dependency>
+      <groupId>org.springframework.data</groupId>
+      <artifactId>spring-data-jpa</artifactId>
+      <version>2.7.6</version>
+    </dependency>
+
+
+
+
+    <dependency>
+      <groupId>org.mapstruct</groupId>
+      <artifactId>mapstruct</artifactId>
+      <version>1.5.3.Final</version>
+    </dependency>
+
+
+
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.13.2</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.26</version>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-core</artifactId>
+      <version>6.1.7.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>6.0.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-autoconfigure</artifactId>
+      <version>3.0.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
+      <dependency>
+          <groupId>org.openwms</groupId>
+          <artifactId>org.openwms.core.integration.hibernate</artifactId>
+          <version>1.0</version>
+      </dependency>
+    <dependency>
+      <groupId>org.apache.aries.jpa</groupId>
+      <artifactId>org.apache.aries.jpa.blueprint</artifactId>
+      <version>2.7.3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openwms</groupId>
+      <artifactId>org.openwms.core.integration.eclipselink</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.dadrus.jpa-unit</groupId>
+      <artifactId>jpa-unit4</artifactId>
+      <version>0.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.github.dadrus.jpa-unit</groupId>
+      <artifactId>jpa-unit5</artifactId>
+      <version>0.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.aries.jpa.itest</groupId>
+      <artifactId>org.apache.aries.jpa.container.itest.bundle.blueprint</artifactId>
+      <version>2.7.3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.aries.jpa</groupId>
+      <artifactId>org.apache.aries.jpa.container</artifactId>
+      <version>2.7.3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.aries.jpa.itest</groupId>
+      <artifactId>org.apache.aries.jpa.container.itest.bundle.blueprint.dao</artifactId>
+      <version>2.7.3</version>
+    </dependency>
+    <dependency>
+      <groupId>io.github.jlmc</groupId>
+      <artifactId>jpa-junit5-extension</artifactId>
+      <version>1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>io.github.jlmc</groupId>
+      <artifactId>jpa-junit5-parent</artifactId>
+      <version>1.1</version>
+    </dependency>
+
+
   </dependencies>
+
+  <build>
+    <plugins>
+
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <version>1.5.1.RELEASE</version>
+        <configuration>
+          <profiles>
+            <profile>foo</profile>
+            <profile>bar</profile>
+          </profiles>
+        </configuration>
+
+      </plugin>
+
+    </plugins>
+  </build>
+
 </project>
